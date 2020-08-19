@@ -18,7 +18,7 @@ function App() {
             <h3 className="mt-3 d-flex justify-content-center">
                 Tools Guru web page </h3>
             <Navigation/>
-            <LeftNavigation className="mt-3 d-flex justify-content-center"/>
+            <LeftNavigation/>
             <switch>
                 <Route path='/' component={Home} exact/>
                 <Route path='/order' component={Order}/>

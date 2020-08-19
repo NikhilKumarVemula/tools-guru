@@ -1,5 +1,3 @@
-
-
 .sideBar {
   float: left;
   margin-right: 7px;
@@ -8,7 +6,8 @@
   margin-top: 8px;
   font-family: Helvetica;
   font-color: white;
-   flex: 1;
-     flexDirection: 'row';
+  flex: 1;
+  flexDirection: 'row';
+  max-width:18%;
 
 }
