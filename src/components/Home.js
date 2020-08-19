@@ -1,13 +1,37 @@
 import React, {Component} from 'react';
-
+import {Table} from 'react-bootstrap';
+import './Home.css';
 
 export class Home extends Component {
-    render(){
-        return(
-            <div className="container">
-                <h3>Welcome to Home Page</h3>
-                <p> Page is Under Construction</p>
-            </div>
-        )
-    }
+   constructor(props){
+           super(props);
+           this.state = {categories:[]}
+       }
+
+       componentDidMount(){
+           this.refreshlist();
+       }
+
+       refreshlist(){
+          fetch('http://localhost:8080/categories')
+          .then(response=> response.json())
+          .then(data => {
+           this.setState({categories:data});
+          })
+       }
+
+       render(){
+       const {categories} = this.state;
+           return(
+           <div className="displayCategory">
+                {categories.map(category=>
+                    <div key ={category.id}>
+                        <h3 className="categoryHeading">{category.category_name}</h3>
+                        <p>Image</p>
+                        <p>Item Name </p>
+                    </div>
+                )}
+           </div>
+           )
+       }
 }

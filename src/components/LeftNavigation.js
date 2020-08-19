@@ -26,6 +26,7 @@ export class LeftNavigation extends Component {
     render(){
     const {categories} = this.state;
         return(
+        <div>
               <Table className="sideBar">
                 <thead>
                     <tr>
@@ -40,6 +41,7 @@ export class LeftNavigation extends Component {
                     )}
                 </tbody>
               </Table>
+        </div>
         )
     }
 }

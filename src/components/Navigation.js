@@ -6,7 +6,7 @@ import {FormControl, Form, Button} from 'react-bootstrap';
 export class Navigation extends Component{
     render(){
         return(
-            <Navbar bg="dark" variant="dark">
+            <Navbar sticky="top" bg="dark" variant="dark">
 
             <Navbar.Collapse id="basic-navbar-nav">
                <Navbar.Brand href="/">

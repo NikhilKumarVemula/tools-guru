@@ -15,16 +15,14 @@ function App() {
   return (
     <BrowserRouter>
         <div className="container">
-            <h3 className="mt-3 d-flex justify-content-center">
-                Tools Guru web page </h3>
             <Navigation/>
             <LeftNavigation/>
-            <switch>
-                <Route path='/' component={Home} exact/>
-                <Route path='/order' component={Order}/>
-                <Route path='/account' component={Account}/>
-                <Route path='/contactUs' component={ContactUs}/>
-             </switch>
+                <switch>
+                    <Route path='/' component={Home} exact/>
+                    <Route path='/order' component={Order}/>
+                    <Route path='/account' component={Account}/>
+                    <Route path='/contactUs' component={ContactUs}/>
+                </switch>
         </div>
     </BrowserRouter>
   );

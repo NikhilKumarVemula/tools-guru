@@ -4,8 +4,11 @@
     <list default="true" id="63ddefea-c2f6-4f46-9483-c0d62b416601" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftNavigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftNavigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +95,14 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2137" y="222" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597809005472" />
+    <state x="1918" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597810149972">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1918" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597810149972" />
+    <state x="2126" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597810684356">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2126" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597810684356" />
   </component>
   <component name="masterDetails">
     <states>
