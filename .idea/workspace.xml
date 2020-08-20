@@ -4,11 +4,10 @@
     <list default="true" id="63ddefea-c2f6-4f46-9483-c0d62b416601" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftNavigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftNavigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftNavigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/LeftNavigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/LeftNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navigation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +26,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\tools-guru\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\tools-guru\src\components\Navigation" />
+      <recent name="C:\IdeaProjects\tools-guru\src\components\Layout" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -87,18 +95,19 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1772" y="211" key="DiffContextDialog" timestamp="1597809003943">
+    <state x="1772" y="211" key="DiffContextDialog" timestamp="1597897236568">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1772" y="211" key="DiffContextDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597809003943" />
-    <state x="2137" y="222" key="RollbackChangesDialog" timestamp="1597809005472">
+    <state x="1772" y="211" key="DiffContextDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597897236568" />
+    <state x="2137" y="222" key="RollbackChangesDialog" timestamp="1597897239093">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2137" y="222" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597809005472" />
-    <state x="1918" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597810149972">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="2137" y="222" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597897239093" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1597868873995">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1918" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597810149972" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597868873995" />
     <state x="2126" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597810684356">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>

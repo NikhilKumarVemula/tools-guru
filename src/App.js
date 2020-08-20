@@ -1,28 +1,26 @@
 import React from 'react';
 import './App.css';
-
 import {Home} from './components/Home';
 import {Order} from './components/Order';
 import {ContactUs} from './components/ContactUs';
 import {Account} from './components/Account';
-
-import {Navigation} from './components/Navigation';
-import {LeftNavigation} from './components/LeftNavigation';
-
+import Layout from './components/layout/Layout';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
     <BrowserRouter>
         <div className="container">
-            <Navigation/>
-            <LeftNavigation/>
-                <switch>
+
+            <Layout/>
+
+                <Switch>
                     <Route path='/' component={Home} exact/>
                     <Route path='/order' component={Order}/>
                     <Route path='/account' component={Account}/>
                     <Route path='/contactUs' component={ContactUs}/>
-                </switch>
+                </Switch>
+
         </div>
     </BrowserRouter>
   );

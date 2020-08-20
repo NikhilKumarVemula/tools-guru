@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Table} from 'react-bootstrap';
 import 'react-pro-sidebar/dist/css/styles.css';
 import './LeftNavigation.css';
-import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 
 export class LeftNavigation extends Component {
 
