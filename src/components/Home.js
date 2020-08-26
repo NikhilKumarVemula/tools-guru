@@ -27,7 +27,7 @@ export class Home extends Component {
                     <div key ={category.id}>
                         <h3 className="categoryHeading">{category.category_name}</h3>
                         <p>Image</p>
-                        <p>Item Name </p>
+                        <p>Item Name</p>
                     </div>
                 )}
            </div>

@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import {Navbar, Nav} from 'react-bootstrap';
-import {FormControl, Form, Button} from 'react-bootstrap';
+
 
 export class Navigation extends Component{
     render(){
         return(
             <Navbar sticky="top" bg="dark" variant="dark">
-
             <Navbar.Collapse id="basic-navbar-nav">
                <Navbar.Brand href="/">
                  <img
@@ -26,10 +25,6 @@ export class Navigation extends Component{
                     <NavLink className="d-inline p-2 text-white" to="/contactUs">Contact Us</NavLink>
                 </Nav>
             </Navbar.Collapse>
-                <Form inline>
-                      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                      <Button variant="outline-info">Search</Button>
-                </Form>
             </Navbar>
         )
     }
