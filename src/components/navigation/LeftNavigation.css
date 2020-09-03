@@ -12,3 +12,7 @@
   position: fixed;
 }
 
+.buildBadge {
+   border: 2px solid;
+  border-radius: 12px;
+}
